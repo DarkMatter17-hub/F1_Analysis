@@ -16,6 +16,8 @@ COMPOUND_COLORS = {
     'WET': '#2e6da4'      # Blue
 }
 
+#trying to use built-in colors (if available)
+
 # 1. Cache Setup
 if not os.path.exists('cache'):
     os.makedirs('cache')
